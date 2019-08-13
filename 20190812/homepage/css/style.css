@@ -33,3 +33,20 @@ ul li:hover ul li {
     display: block;
     opacity: 0.8;
 }
+
+.header-menu {
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.header-menu ul {
+    position: relative;
+    left: 50%;
+    float: left;
+}
+
+.header-menu ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+}
