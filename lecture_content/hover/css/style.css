@@ -1,0 +1,30 @@
+div.ext1 {
+    width: 200px;
+    height: 80px;
+    padding: 5px;
+    color: green;
+    border: 4px solid green;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+* {
+    text-decoration: none;
+}
+
+div.ext1:hover {
+    color: white !important;
+    background-color: green;
+}
+
+div.ext1:link, div.ext1:visited {
+    text-decoration: none;
+}
+
+a:link {
+    color: green;
+}
