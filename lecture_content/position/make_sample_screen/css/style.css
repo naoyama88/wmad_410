@@ -91,7 +91,6 @@ main .main-top div.right img {
     width: 500px;
     border: 6px white solid;
     margin-top: 20px;
-    box-shadow: 3px 3px 10px black;
 }
 
 main .main-top div h1 {
@@ -178,7 +177,6 @@ button:hover a:link, button:hover a:visited {
     height: 195px;
     border: 5px white solid;
     margin: 0 auto;
-    box-shadow: 3px 3px 10px black;
 }
 
 h4 {
@@ -198,4 +196,8 @@ footer {
     font-size: 15px;
     color: white;
     line-height: 50px;
+}
+
+.image-shadow {
+    box-shadow: 3px 3px 10px black;
 }
