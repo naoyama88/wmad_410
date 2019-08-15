@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    margin: none;
+    padding: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.header-top {
+    height: 100px;
+    background-color: rgb(26, 26, 26);
+}
+
+.header-apple img {
+    height: 80px;
+    padding-left: 150px;
+    padding-top: 8px;
+}
+
+nav {
+    height: 50px;
+    background-color: rgb(120, 21, 16);
+    padding-left: 135px;
+}
+
+nav ul {
+    position: relative;
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    color: white;
+    width: 80px;
+    border: none;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 7px;
+}
+
+nav ul li:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+nav ul li a:link, nav ul li a:visited {
+    color: white;
+}
+
+nav ul li:hover a:link, nav ul li:hover a:visited {
+    color: black;
+}
+
+main .main-top {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+main .main-top div.left {
+    float: left;
+    width: 35%;
+    padding: 0 60px;
+}
+
+main .main-top div.right {
+    float: left;
+    width: 40%;
+}
+
+main .main-top div.right img {
+    width: 500px;
+    border: 6px white solid;
+    margin-top: 20px;
+    box-shadow: 3px 3px 10px black;
+}
+
+main .main-top div h1 {
+    margin: 0;
+    padding: 10px 18px;
+    font-size: 26px;
+}
+
+main .main-top div p {
+    margin: 0;
+    padding: 10px 18px;
+    font-size: 18px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    float: right;
+    margin: 20px;
+    padding: 12px 16px;;
+    border-radius: 5px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+button a:link, button a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover a:link, button:hover a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.main-bottom {
+    background-color: rgb(120, 21, 16);
+    height: 710px;
+    color: white;
+}
+
+.main-bottom h3 {
+    padding: 30px 160px;
+    margin: 0;
+    color: white;
+    font-size: 22px;
+}
+
+.main-bottom a:link, .main-bottom a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.services {
+    height: 480px;
+    padding: 10px 20px;
+}
+
+.services ul {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    left: 5%;
+}
+
+.services ul li {
+    float: left;
+    padding: 10px 25px;
+    width: 220px;
+    border-right: 1px white solid;
+}
+
+.services ul li:last-child {
+    border: none;
+}
+
+.services img {
+    height: 195px;
+    border: 5px white solid;
+    margin: 0 auto;
+    box-shadow: 3px 3px 10px black;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.services ul li div.bottom p {
+    font-size: 15px;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    font-size: 15px;
+    color: white;
+    line-height: 50px;
+}
