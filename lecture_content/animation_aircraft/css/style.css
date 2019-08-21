@@ -1,0 +1,33 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.airplain {
+    background-origin: content-box;
+    background-image: url("../img/airplane.png");
+    background-position: center center, 0 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    animation-name: airplain;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+@keyframes airplain {
+    0% {
+        right: 0;
+        top: 0;
+    }
+
+    100% {
+        right: 80vw;
+        top: 80vh;
+    }
+}

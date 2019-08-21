@@ -1,0 +1,20 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+}
+
+.parallax {
+    background: url('./img/universe.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.parallax2 {
+    background: url('./img/universe2.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}

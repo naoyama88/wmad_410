@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#one {
+    width: 1000px;
+    height: 100vh;
+    background-image: linear-gradient(45deg, red, gold);
+}
+
+.three {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: 5px solid black;
+    padding: 50px;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+}
