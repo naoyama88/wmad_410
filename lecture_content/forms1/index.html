@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+<body>
+    <form action="http://www.google.ca">
+        <fieldset>
+            <legend>Your Derails:</legend>
+            <label for="">Name:</label><input type="text" name="name" id="name">
+            <br><label for="">Email:</label><input type="text" name="email" id="email">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Your Review:</legend>
+            <p>
+                <label for="howdidyouhear">How did you hear about us?</label>
+                <select id="howdidyouhear" class="selectbox">
+                    <option value="Google">Google</option>
+                    <option value="LinkedIn">LinkedIn</option>
+                    <option value="CraigsList">CraigsList</option>
+                    <option value="AngelList">AngelList</option>
+                    <option value="BcJobs">BcJobs</option>
+                    <option value="WorkBc">WorkBc</option>
+                </select>
+            </p>
+
+            <p>
+                Would you visit again?<br>
+                <input type="radio" name="wouldyouvisit" value="Yes" checked><label>Yes</label>
+                <input type="radio" name="wouldyouvisit" value="No"><label>No</label>
+                <input type="radio" name="wouldyouvisit" value="Maybe"><label>Maybe</label>
+            </p>
+
+            <label for="comments">Comments:</label>
+            <br><textarea id="comments" rows="5" cols="150" style="width: 300px"></textarea>
+
+            <br><br><input type="checkbox" id="signmeup" name="signmeup"><label for="signmeup">Sign me up for email updates</label>
+            <br><input type="submit" value="Submit review">
+        </fieldset>
+    </form>
+</body>
+</html>

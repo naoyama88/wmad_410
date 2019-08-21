@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    margin-top: 250px;
+}
+
+.container .window {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin: 0 20px;
+}
+
+.container ul {
+    display: flex;
+    justify-content: center;
+}
+
+.overflow img {
+    height: 250px;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+.explanation {
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+.explanation h2 {
+    color: brown;
+    text-align: center;
+}
+
+.explanation p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.overflow {
+    transform: translateY(0);
+    transition: all 3s ease;
+}
+
+.overflow:hover {
+    transform: translateY(-250px);
+}
+
+.border {
+    margin: 8px auto;
+    padding: 0;
+    border-bottom: 2px solid black;
+    width: 180px;
+}
