@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .bw {
+            width: 600px;
+            height: 600px;
+            filter: grayscale(50%);
+            display: block;
+            margin: 0 auto;
+            background: url("./img/rose-09.jpg") no-repeat;
+            background-size: cover;
+            border-radius: 50%;
+        }
+        .bw:hover{
+            /* filter: grayscale(0%);  
+            box-shadow: 5px 5px 10px 5px gray; */
+            animation-name: brighter;
+            animation-duration: 0.4s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes brighter {
+            0% {
+                filter: grayscale(50%);
+            }
+
+            100% {
+                filter: grayscale(0%);
+                box-shadow: 5px 5px 10px 5px gray;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img class="bw">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam magnam molestiae, eum hic obcaecati rerum amet repudiandae, repellendus perspiciatis illum corrupti quae mollitia sunt sed. Qui voluptatem non eos veritatis.</p>
+</body>
+</html>

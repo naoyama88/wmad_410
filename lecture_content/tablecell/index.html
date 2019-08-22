@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #container {
+            display: table;
+            padding: 15px;
+            border: 2px solid black;
+        }
+
+        .row {
+            display: table-row;
+            padding: 10px;
+        }
+
+        .cell {
+            display: table-cell;
+            padding: 10px;
+            background-color: skyblue;
+        }
+
+        .cell1 {
+            display: table-cell;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="container">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <div class="row">
+                <label for="name" class="cell1">Name:</label>
+                <input type="text" class="cell" id="name">
+            </div>
+            <div class="row">
+                <label for="email" class="cell1">Email:</label>
+                <input type="email" class="cell" id="email">
+            </div>
+            <div class="row">
+                <label for="phone" class="cell1">Phone:</label>
+                <input type="text" class="cell" id="phone">
+            </div>
+            <div class="row">
+                <label for="address" class="cell1">Address:</label>
+                <input type="text" class="cell" id="address">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
