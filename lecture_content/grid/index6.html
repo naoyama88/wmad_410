@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div#outer {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+            grid-template-rows: minmax(60px, auto);
+            grid-gap: 5px;
+        }
+
+        div.w1h2 {
+            grid-row: span 2;
+        }
+
+        div.w2h1 {
+            grid-column: span 2;
+        }
+
+        div.w2h2 {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        div.w1h3 {
+            grid-row: span 3;
+        }
+
+        div.w3h1 {
+            grid-column: span 3;
+        }
+
+        div.w3h3 {
+            grid-row: 3;
+            grid-column: 3;
+        }
+
+        #outer div {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        #outer div:nth-child(odd) {
+            background-color: aquamarine;
+            color: black;
+        }
+
+        #outer div:nth-child(even) {
+            background-color: skyblue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer">
+        <div class="w1h3">1</div>
+        <div class="w1h3">2</div>
+        <div class="w1h3">3</div>
+        <div class="w1h2">4</div>
+        <div class="w1h2">5</div>
+        <div class="w1h2">6</div>
+        <div class="w1h2">7</div>
+        <div class="w1h2">8</div>
+        <div class="w2h2">9</div>
+        <div class="w2h2">10</div>
+        <div class="w1h2">11</div>
+        <div class="w1h2">12</div>
+        <div class="w1h2">13</div>
+        <div class="w1h2">14</div>
+        <div class="w1h2">15</div>
+        <div class="w1h2">16</div>
+        <div class="w2h2">17</div>
+        <div class="w1h3">18</div>
+        <div class="w1h2">19</div>
+        <div class="w1h2">20</div>
+        <div class="w1h2">21</div>
+        <div class="w2h2">22</div>
+        <div class="w1h3">23</div>
+        <div class="w1h2">24</div>
+        <div class="w2h2">25</div>
+        <div class="w1h2">26</div>
+        <div class="w1h2">27</div>
+        <div class="w2h2">28</div>
+        <div class="w2h2">29</div>
+        <div class="w1h2">30</div>
+        <div class="w1h2">31</div>
+        <div class="w2h2">32</div>
+        <div class="w1h2">33</div>
+        <div class="w1h3">34</div>
+        <div class="w2h2">35</div>
+        <div class="w1h2">36</div>
+        <div class="w1h3">37</div>
+        <div class="w1h2">38</div>
+        <div class="w2h2">39</div>
+    </div>
+</body>
+
+</html>
